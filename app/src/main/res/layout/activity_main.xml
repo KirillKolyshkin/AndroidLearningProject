@@ -31,7 +31,7 @@
 
 
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="526dp"
+            android:layout_marginBottom="530dp"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="252dp"
     />
@@ -49,5 +49,97 @@
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="442dp"
     />
-    
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tex4"
+            android:text="Таргет"
+            android:textSize="46dp"
+
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="250dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="380dp"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text5"
+            android:text="Остаток На День"
+            android:textSize="48dp"
+
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="295dp"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text6"
+            android:text="Я не знаю"
+            android:textSize="46dp"
+
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="182dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="231dp"
+    />
+
+
+    <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_dialog_email"
+            android:paddingTop="20dp"
+            android:text="Contact"
+            android:textColor="#fff"
+
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="205dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="88dp"
+    />
+
+    <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_dialog_email"
+            android:paddingTop="20dp"
+            android:text="Contact"
+            android:textColor="#fff"
+
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="304dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="88dp"
+    />
+
+    <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_dialog_email"
+            android:paddingTop="20dp"
+            android:text="Contact"
+            android:textColor="#fff"
+
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="66dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="86dp"
+    />
+
+
 </RelativeLayout>
