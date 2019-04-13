@@ -16,5 +16,10 @@
             android:text="Click Me"
     />
 
-
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes, seriously click on it."
+            android:textSize="28dp"
+    />
 </RelativeLayout>
