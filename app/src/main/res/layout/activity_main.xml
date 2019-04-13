@@ -22,5 +22,6 @@
             android:text="Yes, seriously click on it."
             android:textSize="28dp"
             android:layout_centerHorizontal="true"
+            android:id="@+id/btn2"
     />
 </RelativeLayout>
