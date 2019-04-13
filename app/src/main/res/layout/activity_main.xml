@@ -7,21 +7,47 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-    <Button
+
+    <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true"
-            android:id="@+id/btn"
-            android:text="Click Me"
+            android:id="@+id/text1"
+            android:text="Баланс"
+            android:textSize="48dp"
+
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="232dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="592dp"
     />
 
-    <Button
+    <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Yes, seriously click on it.modıf"
-            android:textSize="28dp"
-            android:layout_centerHorizontal="true"
-            android:id="@+id/btn2"
+            android:id="@+id/text2"
+            android:text="R 0000"
+            android:textSize="46dp"
+
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="526dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="252dp"
     />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text3"
+            android:text="Цель"
+            android:textSize="48dp"
+
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="280dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="442dp"
+    />
+    
 </RelativeLayout>
