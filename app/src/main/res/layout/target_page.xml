@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtBalanceTarget"
+            android:text="Баланс На Месяц"
+            android:textSize="48dp"
+
+
+            android:layout_marginBottom="604dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+    />
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTxtTarget"
+            android:text="Balance"
+            android:textSize="46dp"
+
+            android:layout_marginBottom="524dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTargetMonth"
+            android:text="Цель На Месяц"
+            android:textSize="48dp"
+
+
+            android:layout_marginBottom="450dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+    />
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTxtTargetMonth"
+            android:text="Target For Month"
+            android:textSize="46dp"
+
+            android:layout_marginBottom="380dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+    />
+
+    <Button
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/btnPlus"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/ic_ok"
+            android:paddingTop="35dp"
+
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="200dp"
+            android:layout_centerHorizontal="true"
+    />
+
+
+</RelativeLayout>

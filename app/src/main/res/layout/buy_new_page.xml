@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPlateja"
+            android:text="Название Платежа"
+            android:textSize="45dp"
+
+
+            android:layout_marginBottom="650dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+    />
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTxtPlat"
+            android:text="Plateja"
+            android:textSize="46dp"
+
+            android:layout_marginBottom="580dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTipPlateja"
+            android:text="Тип Пдатежа"
+            android:textSize="48dp"
+
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="500dp"
+            android:layout_centerHorizontal="true"
+    />
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTxtTipPlateja"
+            android:text="Tip Plateja"
+            android:textSize="46dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="430dp"
+            android:layout_centerHorizontal="true"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTipPakupki"
+            android:text="Тип Покупки"
+            android:textSize="48dp"
+
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="350dp"
+            android:layout_centerHorizontal="true"
+    />
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTxtTipPakupki"
+            android:text="Tip Pakupki"
+            android:textSize="46dp"
+
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="280dp"
+            android:layout_centerHorizontal="true"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSumma"
+            android:text="Сумма"
+            android:textSize="48dp"
+
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="200dp"
+            android:layout_centerHorizontal="true"
+    />
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTxtSumma"
+            android:text="Summa"
+            android:textSize="46dp"
+
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="130dp"
+            android:layout_centerHorizontal="true"
+    />
+
+    <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/btnPlus"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/ic_ok_small"
+            android:paddingTop="25dp"
+
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_centerHorizontal="true"
+    />
+
+</RelativeLayout>
