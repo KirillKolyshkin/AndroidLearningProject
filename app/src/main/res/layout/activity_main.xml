@@ -16,6 +16,8 @@
             android:text="Баланс"
             android:textSize="48dp"
             android:textColor="#FFF"
+            android:background="@drawable/text_border"
+            android:padding="3dp"
 
 
             android:layout_alignParentEnd="true"
@@ -23,6 +25,7 @@
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="592dp"
     />
+
 
     <TextView
             android:layout_width="wrap_content"
@@ -45,6 +48,8 @@
             android:text="Цель"
             android:textSize="48dp"
             android:textColor="#FFF"
+            android:background="@drawable/text_border"
+            android:padding="3dp"
 
 
             android:layout_alignParentEnd="true"
@@ -74,6 +79,8 @@
             android:text="Остаток На День"
             android:textSize="48dp"
             android:textColor="#FFF"
+            android:background="@drawable/text_border"
+            android:padding="3dp"
 
 
             android:layout_alignParentEnd="true"
@@ -144,3 +151,4 @@
 
 
 </RelativeLayout>
+

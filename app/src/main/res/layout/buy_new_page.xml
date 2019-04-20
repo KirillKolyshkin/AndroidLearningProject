@@ -11,6 +11,10 @@
             android:id="@+id/txtPlateja"
             android:text="Название Платежа"
             android:textSize="45dp"
+            android:textColor="#FFF"
+            android:background="@drawable/text_border"
+            android:padding="3dp"
+
 
 
             android:layout_marginBottom="650dp"
@@ -34,8 +38,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/txtTipPlateja"
-            android:text="Тип Пдатежа"
+            android:text="Тип Платежа"
             android:textSize="48dp"
+            android:textColor="#FFF"
+            android:background="@drawable/text_border"
+            android:padding="3dp"
+
 
 
             android:layout_alignParentBottom="true"
@@ -61,6 +69,10 @@
             android:id="@+id/txtTipPakupki"
             android:text="Тип Покупки"
             android:textSize="48dp"
+            android:textColor="#FFF"
+            android:background="@drawable/text_border"
+            android:padding="3dp"
+
 
 
             android:layout_alignParentBottom="true"
@@ -87,6 +99,10 @@
             android:id="@+id/txtSumma"
             android:text="Сумма"
             android:textSize="48dp"
+            android:textColor="#FFF"
+            android:background="@drawable/text_border"
+            android:padding="3dp"
+
 
 
             android:layout_alignParentBottom="true"

@@ -11,6 +11,10 @@
             android:id="@+id/txtBalanceTarget"
             android:text="Баланс На Месяц"
             android:textSize="48dp"
+            android:textColor="#FFF"
+            android:background="@drawable/text_border"
+            android:padding="3dp"
+
 
 
             android:layout_marginBottom="604dp"
@@ -36,6 +40,10 @@
             android:id="@+id/txtTargetMonth"
             android:text="Цель На Месяц"
             android:textSize="48dp"
+            android:textColor="#FFF"
+            android:background="@drawable/text_border"
+            android:padding="3dp"
+
 
 
             android:layout_marginBottom="450dp"
