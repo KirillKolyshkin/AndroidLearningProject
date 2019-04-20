@@ -15,6 +15,7 @@
             android:id="@+id/txtBalance"
             android:text="Баланс"
             android:textSize="48dp"
+            android:textColor="#FFF"
 
 
             android:layout_alignParentEnd="true"
@@ -43,6 +44,7 @@
             android:id="@+id/txtTarget"
             android:text="Цель"
             android:textSize="48dp"
+            android:textColor="#FFF"
 
 
             android:layout_alignParentEnd="true"
@@ -71,6 +73,7 @@
             android:id="@+id/txtOstatok"
             android:text="Остаток На День"
             android:textSize="48dp"
+            android:textColor="#FFF"
 
 
             android:layout_alignParentEnd="true"
